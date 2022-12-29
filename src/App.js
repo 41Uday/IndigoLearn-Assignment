@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import Header from './components/Header'
+
+import BecomeACCA from './components/BecomeACCA'
+
+import WhyChooseUs from './components/WhyChooseUs'
+
+import Eligibility from './components/Eligibility'
+
+import LearnInACCA from './components/LearnInACCA'
+
+import Placement from './components/Placement'
+
+import ACCAJourney from './components/ACCAJourney'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <BecomeACCA />
+      <WhyChooseUs />
+      <Eligibility />
+      <LearnInACCA />
+      <Placement />
+      <ACCAJourney />
     </div>
   );
 }

@@ -1,0 +1,129 @@
+.wcu-head {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.wcu-card-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wcu-card-1-in-1 {
+    height: 350px;
+    width: 360px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F6F8FA;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    border-bottom: 2px solid #350673;
+    border-left: 1px solid #350673;
+    border-right: 1px solid #350673;
+    box-shadow: 0px -4px 3px rgba(7, 7, 7, 0.08);
+}
+
+.wcu-card-head-1 {
+    color: #350673;
+    font-size: 20px;
+}
+
+.wcu-bulb-img {
+    height: 100px;
+    width: 100px;
+}
+
+.scu-para-1 {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wcu-card-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.wcu-card-2-in-1-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+
+.wcu-card-2-in-1 {
+    height: 100px;
+    width: 330px;
+    border-top: 2px solid #350673;
+    border-radius: 3px;
+    box-shadow: 0px 4px 6px -6px #222;
+    box-shadow: 0 0 3px 0px #000;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wcu-last-para-2 {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.wcu-last-para-1 {
+    font-size: 20px;
+    
+    font-weight: 600;
+}
+
+.wcu-icon {
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 768px) {
+    .wcu-head {
+        font-size: 25px;
+    }
+    .wcu-card-1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .wcu-card-1-in-1 {
+        height: 200px;
+        margin-right: 1px;
+        background-color: #F6F8FA;
+    }
+    .wcu-bulb-img {
+        height: 60px;
+        width: 60px;
+    }
+    .wcu-card-head-1 {
+        font-size: 18px;
+    }
+    .scu-para-1 {
+        font-size: 14px;
+    }
+    .wcu-card-2 {
+        flex-wrap: wrap;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+    .wcu-card-2-in-1 {
+        width: 180px;
+        height: 80px;
+    }
+}

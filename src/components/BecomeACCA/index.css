@@ -1,0 +1,263 @@
+.ba-container {
+    padding: 50px;
+    background-color: #DFF6FA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ba-head {
+    font-size: 30px;
+}
+
+.ba-para {
+    font-size: 17px;
+}
+
+.ba-inner-card-1 {
+    display: flex;
+    align-items: center;
+}
+
+.ba-card-1-in-1 {
+    height: 70px;
+    padding: 10px;
+    border-radius: 6px;
+    border-bottom: 2px solid #350673;
+    border-top: none;
+    border-left: 1px solid #350673;
+    border-right: 1px solid #350673;
+    box-shadow: 0px -4px 3px rgba(7, 7, 7, 0.08);
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ba-card-one-1-in-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+                
+.ba-para-count {
+    margin-top: -10px;
+    text-align: center;
+}
+
+.ba-icon-card {
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.ba-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.ba-button-1 {
+    height: 50px;
+    width: 160px;
+    border-radius: 6px;
+    border: none;
+    background-color: #350673;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.ba-silver-acca {
+    height: 40px;
+    border: 1px solid white;
+   
+}
+
+.ba-silver-cont {
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 12px;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.silver-para {
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.ba-card-2 {
+    width: 50%;
+    height: 300px;
+    background-color: white;
+    border-top: 2px solid #350673;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ba-card-2-head {
+    text-align: center;
+    font-size: 20px;
+}
+
+.ba-card-2-input {
+    height: 30px;
+    width: 100%;
+    border: 1px solid grey;
+    color: grey;
+    outline: none;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.ba-dropdown-1 {
+    height: 30px;
+    width: 100%;
+    border: 1px solid grey;
+    color: grey;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.request-button {
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #350673;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ba-last-para-card {
+    margin-top: 15px;
+}
+
+.ba-img-cont {
+   display: none;
+}
+
+.ba-sc {
+    display: none;
+}
+
+.ba-sc-butt {
+    display: none;
+}
+
+.share-cont {
+    display: none;
+}
+
+.ba-dropdown-1-ex {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .ba-container {
+        padding: 15px;
+        flex-direction: column;
+    }
+    .ba-head {
+        font-size: 24px;
+        text-align: center;
+    }
+    .ba-inner-card-1 {
+        display: none;
+    }
+    .ba-para {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .ba-img {
+        
+        height: 200px;
+        width: 80%;
+    }
+    .ba-img-cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     } 
+    .ba-button-container {
+        display: none;
+    }
+    .ba-card-2 {
+        width: 90%;
+        height: 350px;
+    }
+    .ba-dropdown-1-ex {
+        margin-top: 15px;
+    }
+
+    .ba-sc {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .ba-card-1-in-1 {
+        width: 160px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .ba-last-para-card {
+        font-size: 13px;
+    }
+    .ba-para-count {
+        font-size: 14px;
+    }
+    .ba-sc-butt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ba-button-1 {
+        margin-bottom: -20px;
+        width: 200px;
+    }
+    .ba-silver-cont {
+        margin-left: 1px;
+    }
+    .share-cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .ba-para-share {
+        font-size: 12px;
+        
+    }
+    .share-icon {
+        font-size: 8px;
+        margin-top: -15px;
+        margin-right: 5px;
+    }
+    .ba-card-2-head {
+        font-size: 15px;
+    }
+}
